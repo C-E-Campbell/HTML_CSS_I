@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8" />
 
-    <!--Here is an example of a meta tag for the description of your website-->
-    <!--Full meta tag list can be found here http://www.metatags.org/-->
-    <meta name="description" content="Add a description that will explain your website. ">
+		<!--Here is an example of a meta tag for the description of your website-->
+		<!--Full meta tag list can be found here http://www.metatags.org/-->
+		<meta
+			name="description"
+			content="Add a description that will explain your website. "
+		/>
 
-    <!--This meta tag is super important for making responsive websites-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--This meta tag is super important for making responsive websites-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Make sure you always have a title -->
-    <!--Add title tag-->
+		<!--Make sure you always have a title -->
+		<!--Add title tag-->
+		<title>Dev Mountain</title>
+		<!-- Import "open sans" font from fonts.google.com via the link tag here.-->
+		<!-- Make sure you add regular and bold font weights -->
 
-    <!-- Import "open sans" font from fonts.google.com via the link tag here.-->
-    <!-- Make sure you add regular and bold font weights -->
+		<!-- The reset.css file always goes before any other css file -->
+		<!-- Create a reset.css file and add the contents from  https://cssreset.com/scripts/eric-meyer-reset-css/-->
+		<!-- Make sure you link your reset.css file-->
 
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./index.css" />
 
-    <!-- The reset.css file always goes before any other css file -->
-    <!-- Create a reset.css file and add the contents from  https://cssreset.com/scripts/eric-meyer-reset-css/-->
-    <!-- Make sure you link your reset.css file-->
-
-
-
-    <!--Create a mini.css file and link it here-->
-
-
-
-</head>
-<body>
-
-<!-- Add header element here. The header element is going to contain your website navigation & company logo-->
-
-
-
-<!-- The main tag is going to hold all of our website content. -->
-<main>
-
-
-
-
-
-</main>
-</body>
+		<!--Create a mini.css file and link it here-->
+	</head>
+	<body>
+		<!-- Add header element here. The header element is going to contain your website navigation & company logo-->
+		<header>
+			<img src="./logo_white.png" alt="devMtnLogo" id="logo" />
+			<ul>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</header>
+		<!-- The main tag is going to hold all of our website content. -->
+		<main>
+			<h1>To be better is to execute more</h1>
+			<p>It's not the smartest who win, but those who put in the work.</p>
+			<a id="cta" href="#">get started</a>
+		</main>
+	</body>
 </html>
