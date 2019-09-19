@@ -1,0 +1,58 @@
+header {
+	background-color: tomato;
+	height: 80px;
+	width: 100%;
+	box-shadow: 1px 2px 10px rgba(82, 82, 82, 0.486);
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	margin: 2em;
+	display: inline-block;
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 2em;
+	display: inline-block;
+}
+
+.rectangle {
+	height: 100px;
+	width: 200px;
+	border-radius: 10px;
+	margin: 2em;
+	display: inline-block;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid rgba(128, 0, 128, 0.287);
+	border-radius: 10px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: rgb(223, 47, 47);
+}
+
+.purple {
+	background-color: rgb(112, 3, 112);
+}
+
+.green {
+	background: linear-gradient(40deg, rgb(219, 200, 90), rgb(15, 25, 165));
+}
